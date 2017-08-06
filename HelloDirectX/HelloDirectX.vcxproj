@@ -11,9 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1BDD1E1F-BD6D-4BC0-85B1-D6F7B7B9E73C}</ProjectGuid>
-    <RootNamespace>Project1</RootNamespace>
-    <ProjectName>HelloGame</ProjectName>
+    <ProjectGuid>{7508B6A6-6BD8-4947-9D03-4592FE36E552}</ProjectGuid>
+    <RootNamespace>HelloDirectX</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -70,6 +69,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

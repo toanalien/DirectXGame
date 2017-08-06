@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Project1\Project1.vcxproj", "{1BDD1E1F-BD6D-4BC0-85B1-D6F7B7B9E73C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloGame", "Project1\Project1.vcxproj", "{1BDD1E1F-BD6D-4BC0-85B1-D6F7B7B9E73C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloDirectX", "HelloDirectX\HelloDirectX.vcxproj", "{7508B6A6-6BD8-4947-9D03-4592FE36E552}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1BDD1E1F-BD6D-4BC0-85B1-D6F7B7B9E73C}.Debug|Win32.Build.0 = Debug|Win32
 		{1BDD1E1F-BD6D-4BC0-85B1-D6F7B7B9E73C}.Release|Win32.ActiveCfg = Release|Win32
 		{1BDD1E1F-BD6D-4BC0-85B1-D6F7B7B9E73C}.Release|Win32.Build.0 = Release|Win32
+		{7508B6A6-6BD8-4947-9D03-4592FE36E552}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7508B6A6-6BD8-4947-9D03-4592FE36E552}.Debug|Win32.Build.0 = Debug|Win32
+		{7508B6A6-6BD8-4947-9D03-4592FE36E552}.Release|Win32.ActiveCfg = Release|Win32
+		{7508B6A6-6BD8-4947-9D03-4592FE36E552}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
